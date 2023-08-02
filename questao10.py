@@ -3,7 +3,7 @@
 
 val = float(input("Insira o valor, por favor:R$"))
 temp = float(input("Agora, o tempo em dias:"))
-tax = float(input("Por fim, o valor da taxa:R$"))
+tax = float(input("Por fim, coloque a taxa de juros:R$"))
 
 
 
