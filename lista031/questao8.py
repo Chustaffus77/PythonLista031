@@ -4,11 +4,11 @@
 
 #média = km/l
 
-print("Vamos lá! Para evitar infortúnios, respondas as perguntas a seguir para você saver a quantia exata de gasolina pra sua viagem!")
+print("Vamos lá! Para evitar infortúnios, respondas as perguntas a seguir para você saber a quantia exata de gasolina pra sua viagem!")
 
 d = float(input("Qual é a distância que será percorrida (em km)?"))
 cm = float(input("Por fim, qual é o valor do consumo médio do seu automóvel(em km/l)?"))
 
-l = cm * d
+l = d / cm
 
-print("Com base nos dados apresentados, serão necessários",l,"litros de gasolina para chegar ao local de destino! Espero ter sido útil!")
+print(f"Com base nos dados apresentados, serão necessários {l} litros de gasolina para chegar ao local de destino! Espero ter sido útil!")
