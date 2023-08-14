@@ -11,4 +11,4 @@ cm = float(input("Por fim, qual é o valor do consumo médio do seu automóvel(e
 
 l = d / cm
 
-print(f"Com base nos dados apresentados, serão necessários {l} litros de gasolina para chegar ao local de destino! Espero ter sido útil!")
+print(f"Com base nos dados apresentados, serão necessários {l:.0f} litros de gasolina para chegar ao local de destino! Espero ter sido útil!")
